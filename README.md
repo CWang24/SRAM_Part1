@@ -171,25 +171,25 @@ tunit	400ps
 
 ### a) Layout design 
 
-<b>SRAM cell:
+<b>SRAM cell:<br />
 ![image] (https://dl.dropboxusercontent.com/s/xw4v0cxyjydrjz0/image16.png?dl=0)<br />
-<b>Sense amplifier:
+<b>Sense amplifier:<br />
 ![image] (https://dl.dropboxusercontent.com/s/fqb8x7jb7mglbkp/image17.png?dl=0)<br />
-<b>Write/read circuit:
+<b>Write/read circuit:<br />
 ![image] (https://dl.dropboxusercontent.com/s/h41jp09p12jp0eu/image18.png?dl=0)<br />
-<b>Precharge circuit:
+<b>Precharge circuit:<br />
 ![image] (https://dl.dropboxusercontent.com/s/dxtb638lmfidgz6/image19.png?dl=0)<br />
-<b>One bank layout:
+<b>One bank layout:<br />
 ![image] (https://dl.dropboxusercontent.com/s/7ne7mtucl85n85f/image20.png?dl=0)<br />
-<b>Overall layout:
+<b>Overall layout:<br />
 ![image] (https://dl.dropboxusercontent.com/s/zdlsnzrzvpjgb3w/image21.png?dl=0)<br />
-<b>Row decoder:
+<b>Row decoder:<br />
 ![image] (https://dl.dropboxusercontent.com/s/imue6jp1mxyf5co/image22.png?dl=0)<br />
-<b>Output registers (D flip flop):
+<b>Output registers (D flip flop):<br />
 ![image] (https://dl.dropboxusercontent.com/s/jt94w8ukvf1mzps/image23.png?dl=0)<br />
-<b>Column mux:
+<b>Column mux:<br />
 ![image] (https://dl.dropboxusercontent.com/s/ew4z8hd7kuhn0c4/image24.png?dl=0)<br />
-### b) LVS check:
+### b) LVS check:<br />
 ![image] (https://dl.dropboxusercontent.com/s/9s9qxtv83fhobkb/image25.png?dl=0)<br />
 ### c) Functional test in the extracted view
 <b>Input vector file: 
