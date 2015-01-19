@@ -1,7 +1,8 @@
 # Part A. 1K Bit SRAM Schematic Design
 
 ### a) Prime Specs
-This is a 1024-bit SRAM with four 256-bit banks, with a total area of 253.3*98.5=24950.05um2, and with a minimal clock period of 6.1ns, i.e. 163.9MHz.(To find the minimal clock period, I gradually reduced the tunit in the input vector file, until the result started to go wrong.)<br />
+This is a <b>1024-bit SRAM</b> with four 256-bit banks, with a total area of 253.3*98.5=<b>24950.05um2</b>, and with a minimal clock period of 6.1ns, i.e. <b>163.9MHz</b>.(To find the minimal clock period, I gradually reduced the tunit in the input vector file, until the result started to go wrong.)<br />
+<br />
 1. Address bits are [A5:A0], I used the MSB four bits which are A5A4A3A2 for word line selecting, and LSB two bits which are A1A0 for bank selecting. <br />
 2. To save area in layout design and to reduce the wire delay, I did not arrange the bit lines consecutively (i.e. BL0, BL1, BL2 … BL63). Instead, I put together BLs which are suppose to converge into the same column MUX (i.e. BL0, BL16, BL32, BL48, BL1, BL17,ect).<br />
 3. I put sense amplifier after the MUX, so I need only 16 SAs instead of 64.<br />
@@ -72,7 +73,7 @@ tunit	400ps
 60      0 1 1 1 0 1
 ```
 <b>Waveform:
-![image] (https://dl.dropboxusercontent.com/s/dl107s6xujsgdbq/image11.png?dl=0
+![image] (https://dl.dropboxusercontent.com/s/dl107s6xujsgdbq/image11.png?dl=0)
 
 ### d) Functional test for consecutive read and write operations
 
