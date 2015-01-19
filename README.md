@@ -26,16 +26,16 @@ SRAM Part A. 1K Bit SRAM Schematic Design
 
 
 # 2 Briefly explanation
-This is a 1024-bit SRAM with four 256-bit banks. 
-1. I used the MSB four bits which are A5A4A3A2 for word line selecting, and LSB two bits which are A1A0 for bank selecting. 
-2. To save area in layout design and to reduce the wire delay, I did not arrange the bit lines consecutively (i.e. BL0, BL1, BL2 … BL63). Instead, I put together BLs which are going to converge into the same column MUX (i.e. BL0, BL16, BL32, BL48, BL1, BL17…).
-3. I put sense amplifier after the MUX, so I need only 16 of them instead of 64.
-4. To ensure fast charging and discharging of the long word lines, I add an dedicated 4x inverter before each bank. Hence the output of row decoder are ~WLs instead of WL.
-4. I used two level column MUX, which is 4-to-1, and I combined the read and write MUX together using all NMOSs and all PMOSs. Hence the column decoder can be saved. Since the MUXs are put before the sense amplifier, the read MUX is all PMOSs and carefully sized so that it can pass delta V as low as 200mv within a short time.
-Sizing detail:
-SRAM cell: nMOS pulldowns: 600n/200n; pMOS pullups: 400n/300n; Access transistors: 400n /200n;
-Write circuit: 
-Sense amplifier:
+This is a 1024-bit SRAM with four 256-bit banks. <br />
+1. I used the MSB four bits which are A5A4A3A2 for word line selecting, and LSB two bits which are A1A0 for bank selecting. <br />
+2. To save area in layout design and to reduce the wire delay, I did not arrange the bit lines consecutively (i.e. BL0, BL1, BL2 … BL63). Instead, I put together BLs which are suppose to converge into the same column MUX (i.e. BL0, BL16, BL32, BL48, BL1, BL17,ect).<br />
+3. I put sense amplifier after the MUX, so I need only 16 SAs instead of 64.<br />
+4. To ensure fast charging and discharging of the long word lines, I add an dedicated 4x inverter before each bank. Hence the output of row decoder are ~WLs instead of WL.<br />
+5. I used two level column MUX, which is 4-to-1, and I combined the read and write MUX together using all NMOSs and all PMOSs. Hence the column decoder can be saved. Since the MUXs are put before the sense amplifier, the read MUX is all PMOSs and carefully sized so that it can pass delta V as low as 200mv within a short time.<br />
+Sizing detail:<br />
+SRAM cell: nMOS pulldowns: 600n/200n; pMOS pullups: 400n/300n; Access transistors: 400n /200n;<br />
+Write circuit: <br />
+Sense amplifier:<br />
 Precharge circuit:
 Row decoder: 4X NANDs(), 4X NORs, 4X inverters
 Output register:
