@@ -25,21 +25,21 @@ Column MUX: NMOSs: 300n/200n; PMOSs: 300n/200n.<br />
 ![image] (https://dl.dropboxusercontent.com/s/hdzzways2kh1w07/SRAMcell.png?dl=0)
 
 ##### Sense amplifier:
-![image] (https://dl.dropboxusercontent.com/s/r4xsxuylwn9390s/image2.png?dl=0)
+![image] (https://dl.dropboxusercontent.com/s/r4xsxuylwn9390s/image2.png?dl=0)<br />
 ##### Write circuit:
-![image] (https://dl.dropboxusercontent.com/s/oqs5l6ow43q5s86/image3.png?dl=0)
+![image] (https://dl.dropboxusercontent.com/s/oqs5l6ow43q5s86/image3.png?dl=0)<br />
 ##### Read circuit:
-![image] (https://dl.dropboxusercontent.com/s/vho4gxly2adp5tx/image4.png?dl=0)
+![image] (https://dl.dropboxusercontent.com/s/vho4gxly2adp5tx/image4.png?dl=0)<br />
 ##### Precharge circuit:
-![image] (https://dl.dropboxusercontent.com/s/ff8cwtcxmamiu9x/image5.png?dl=0)
+![image] (https://dl.dropboxusercontent.com/s/ff8cwtcxmamiu9x/image5.png?dl=0)<br />
 ##### One bank schematic:
-![image] (https://dl.dropboxusercontent.com/s/jttw2rh6zct8lit/image6.png?dl=0)
+![image] (https://dl.dropboxusercontent.com/s/jttw2rh6zct8lit/image6.png?dl=0)<br />
 ##### Overall schematic:
-![image] (https://dl.dropboxusercontent.com/s/gcfeydgpeolc5yp/image7.png?dl=0)
+![image] (https://dl.dropboxusercontent.com/s/gcfeydgpeolc5yp/image7.png?dl=0)<br />
 ##### Row decoder:
-![image] (https://dl.dropboxusercontent.com/s/2idovgrzuwxghg9/image8.png?dl=0)
+![image] (https://dl.dropboxusercontent.com/s/2idovgrzuwxghg9/image8.png?dl=0)<br />
 ##### Column mux:
-![image] (https://dl.dropboxusercontent.com/s/0rw29xzvj4lymo3/image9.png?dl=0)
+![image] (https://dl.dropboxusercontent.com/s/0rw29xzvj4lymo3/image9.png?dl=0)<br />
 
 
 
@@ -172,25 +172,25 @@ tunit	400ps
 ### a) Layout design 
 
 <b>SRAM cell:
-![image] (https://dl.dropboxusercontent.com/s/xw4v0cxyjydrjz0/image16.png?dl=0)
+![image] (https://dl.dropboxusercontent.com/s/xw4v0cxyjydrjz0/image16.png?dl=0)<br />
 <b>Sense amplifier:
-![image] (https://dl.dropboxusercontent.com/s/fqb8x7jb7mglbkp/image17.png?dl=0)
+![image] (https://dl.dropboxusercontent.com/s/fqb8x7jb7mglbkp/image17.png?dl=0)<br />
 <b>Write/read circuit:
-![image] (https://dl.dropboxusercontent.com/s/h41jp09p12jp0eu/image18.png?dl=0)
+![image] (https://dl.dropboxusercontent.com/s/h41jp09p12jp0eu/image18.png?dl=0)<br />
 <b>Precharge circuit:
-![image] (https://dl.dropboxusercontent.com/s/dxtb638lmfidgz6/image19.png?dl=0)
+![image] (https://dl.dropboxusercontent.com/s/dxtb638lmfidgz6/image19.png?dl=0)<br />
 <b>One bank layout:
-![image] (https://dl.dropboxusercontent.com/s/7ne7mtucl85n85f/image20.png?dl=0)
+![image] (https://dl.dropboxusercontent.com/s/7ne7mtucl85n85f/image20.png?dl=0)<br />
 <b>Overall layout:
-![image] (https://dl.dropboxusercontent.com/s/zdlsnzrzvpjgb3w/image21.png?dl=0)
+![image] (https://dl.dropboxusercontent.com/s/zdlsnzrzvpjgb3w/image21.png?dl=0)<br />
 <b>Row decoder:
-![image] (https://dl.dropboxusercontent.com/s/imue6jp1mxyf5co/image22.png?dl=0)
+![image] (https://dl.dropboxusercontent.com/s/imue6jp1mxyf5co/image22.png?dl=0)<br />
 <b>Output registers (D flip flop):
-![image] (https://dl.dropboxusercontent.com/s/jt94w8ukvf1mzps/image23.png?dl=0）
+![image] (https://dl.dropboxusercontent.com/s/jt94w8ukvf1mzps/image23.png?dl=0)<br />
 <b>Column mux:
-![image] (https://dl.dropboxusercontent.com/s/ew4z8hd7kuhn0c4/image24.png?dl=0)
+![image] (https://dl.dropboxusercontent.com/s/ew4z8hd7kuhn0c4/image24.png?dl=0)<br />
 ### b) LVS check:
-![image] (https://dl.dropboxusercontent.com/s/9s9qxtv83fhobkb/image25.png?dl=0)
+![image] (https://dl.dropboxusercontent.com/s/9s9qxtv83fhobkb/image25.png?dl=0)<br />
 ### c) Functional test in the extracted view
 <b>Input vector file: 
 Similar to the one used in schematic simulation, except for adding clk and ~clk
