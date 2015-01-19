@@ -20,32 +20,32 @@ Column MUX: NMOSs: 300n/200n; PMOSs: 300n/200n.<br />
 
 ### b) Schematic
 
-##### SRAM cell
+##### SRAM cell:
 
 ![image] (https://dl.dropboxusercontent.com/s/hdzzways2kh1w07/SRAMcell.png?dl=0)
 
-### Sense amplifier
+##### Sense amplifier:
 ![image] (https://dl.dropboxusercontent.com/s/r4xsxuylwn9390s/image2.png?dl=0)
-##### Write circuit
+##### Write circuit:
 ![image] (https://dl.dropboxusercontent.com/s/oqs5l6ow43q5s86/image3.png?dl=0)
-##### Read circuit
+##### Read circuit:
 ![image] (https://dl.dropboxusercontent.com/s/vho4gxly2adp5tx/image4.png?dl=0)
-##### Precharge circuit
+##### Precharge circuit:
 ![image] (https://dl.dropboxusercontent.com/s/ff8cwtcxmamiu9x/image5.png?dl=0)
-##### One bank schematic
+##### One bank schematic:
 ![image] (https://dl.dropboxusercontent.com/s/jttw2rh6zct8lit/image6.png?dl=0)
-##### Overall schematic
+##### Overall schematic:
 ![image] (https://dl.dropboxusercontent.com/s/gcfeydgpeolc5yp/image7.png?dl=0)
-##### Row decoder
+##### Row decoder:
 ![image] (https://dl.dropboxusercontent.com/s/2idovgrzuwxghg9/image8.png?dl=0)
-##### Column mux
+##### Column mux:
 ![image] (https://dl.dropboxusercontent.com/s/0rw29xzvj4lymo3/image9.png?dl=0)
 
 
 
 
 ### c) Single cell test
-<b>Input vector file:<\b>
+<b>Input vector file:
 ```
 radix	1	1   1   1   1   1
 io		i	i   i	i   i	i 
@@ -71,7 +71,7 @@ tunit	400ps
 56		0 1 0 0 1 1
 60      0 1 1 1 0 1
 ```
-<b>Waveform:<\b>
+<b>Waveform:
 ![image] (https://dl.dropboxusercontent.com/s/dl107s6xujsgdbq/image11.png?dl=0
 
 ### d) Functional test for consecutive read and write operations
@@ -170,37 +170,34 @@ tunit	400ps
 # Part B. 1K Bit SRAM Layout Design
 
 ### a) Layout design 
-<b>SRAM cell
-
-<b>Sense amplifier
-
-<b>Write/read circuit
-
-<b>Precharge circuit,
-
-<b>One bank layout
-
-<b>Overall layout
-
-<b>Row decoder
-
-<b>Output registers (D flip flop)
-
-<b>Column mux.
-
-### b) LVS check
+![image] (https://dl.dropboxusercontenthttps://www.dropbox
+<b>SRAM cell:
+![image] (https://dl.dropboxusercontent.com/s/xw4v0cxyjydrjz0/image16.png?dl=0)https://www.dropbox
+<b>Sense amplifier:
+![image] (https://dl.dropboxusercontent.com/s/fqb8x7jb7mglbkp/image17.png?dl=0)https://www.dropbox
+<b>Write/read circuit:
+![image] (https://dl.dropboxusercontent.com/s/h41jp09p12jp0eu/image18.png?dl=0）https://www.dropbox
+<b>Precharge circuit:
+![image] (https://dl.dropboxusercontent.com/s/dxtb638lmfidgz6/image19.png?dl=0)https://www.dropbox
+<b>One bank layout:
+![image] (https://dl.dropboxusercontent.com/s/7ne7mtucl85n85f/image20.png?dl=0）https://www.dropbox
+<b>Overall layout:
+![image] (https://dl.dropboxusercontent.com/s/zdlsnzrzvpjgb3w/image21.png?dl=0)
+<b>Row decoder:
+![image] (https://dl.dropboxusercontent.com/s/imue6jp1mxyf5co/image22.png?dl=0)
+<b>Output registers (D flip flop):
+![image] (https://dl.dropboxusercontent.com/s/jt94w8ukvf1mzps/image23.png?dl=0）
+<b>Column mux:
+![image] (https://dl.dropboxusercontent.com/s/ew4z8hd7kuhn0c4/image24.png?dl=0
+### b) LVS check:
 
 ### c) Functional test in the extracted view
-Input vector file: 
+<b>Input vector file: 
 Similar to the one used in schematic simulation, except for adding clk and ~clk
-Waveform
 
+<b>Waveform:
+![image] (https://dl.dropboxusercontent
 
-Summary of key parameters
-Area:253.3*98.5=24950.05um2
-
-Minimal clock period:
-To find the minimal clock period, I gradually reduced the tunit in the input vector file, until the result started to go wrong. The minimum clock period of this deign is 6.1ns.
 
 
 
