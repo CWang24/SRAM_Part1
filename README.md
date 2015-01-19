@@ -170,17 +170,17 @@ tunit	400ps
 # Part B. 1K Bit SRAM Layout Design
 
 ### a) Layout design 
-![image] (https://dl.dropboxusercontenthttps://www.dropbox
+
 <b>SRAM cell:
-![image] (https://dl.dropboxusercontent.com/s/xw4v0cxyjydrjz0/image16.png?dl=0)https://www.dropbox
+![image] (https://dl.dropboxusercontent.com/s/xw4v0cxyjydrjz0/image16.png?dl=0)
 <b>Sense amplifier:
-![image] (https://dl.dropboxusercontent.com/s/fqb8x7jb7mglbkp/image17.png?dl=0)https://www.dropbox
+![image] (https://dl.dropboxusercontent.com/s/fqb8x7jb7mglbkp/image17.png?dl=0)
 <b>Write/read circuit:
-![image] (https://dl.dropboxusercontent.com/s/h41jp09p12jp0eu/image18.png?dl=0）https://www.dropbox
+![image] (https://dl.dropboxusercontent.com/s/h41jp09p12jp0eu/image18.png?dl=0)
 <b>Precharge circuit:
-![image] (https://dl.dropboxusercontent.com/s/dxtb638lmfidgz6/image19.png?dl=0)https://www.dropbox
+![image] (https://dl.dropboxusercontent.com/s/dxtb638lmfidgz6/image19.png?dl=0)
 <b>One bank layout:
-![image] (https://dl.dropboxusercontent.com/s/7ne7mtucl85n85f/image20.png?dl=0）https://www.dropbox
+![image] (https://dl.dropboxusercontent.com/s/7ne7mtucl85n85f/image20.png?dl=0)
 <b>Overall layout:
 ![image] (https://dl.dropboxusercontent.com/s/zdlsnzrzvpjgb3w/image21.png?dl=0)
 <b>Row decoder:
@@ -188,15 +188,15 @@ tunit	400ps
 <b>Output registers (D flip flop):
 ![image] (https://dl.dropboxusercontent.com/s/jt94w8ukvf1mzps/image23.png?dl=0）
 <b>Column mux:
-![image] (https://dl.dropboxusercontent.com/s/ew4z8hd7kuhn0c4/image24.png?dl=0
+![image] (https://dl.dropboxusercontent.com/s/ew4z8hd7kuhn0c4/image24.png?dl=0)
 ### b) LVS check:
-
+![image] (https://dl.dropboxusercontent.com/s/9s9qxtv83fhobkb/image25.png?dl=0)
 ### c) Functional test in the extracted view
 <b>Input vector file: 
 Similar to the one used in schematic simulation, except for adding clk and ~clk
 
 <b>Waveform:
-![image] (https://dl.dropboxusercontent
+![image] (https://dl.dropboxusercontent.com/s/4mh5ls2ghawyjgr/image26.png?dl=0)
 
 
 
